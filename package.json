@@ -1,0 +1,28 @@
+{
+  "name": "medicite",
+  "dependencies": {
+    "@babel/runtime": "7.0.0-beta.55",
+    "fetch-resource": "^0.3.4",
+    "material-ui": "^1.0.0-beta.47",
+    "material-ui-icons": "^1.0.0-beta.36",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.3",
+    "serve": "^10.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "now-start": "serve ./build --single",
+    "deploy": "now --public && now alias"
+  },
+  "now": {
+    "alias": "medicite"
+  },
+  "browserslist": [
+    ">5%"
+  ]
+}

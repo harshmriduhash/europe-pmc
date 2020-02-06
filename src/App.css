@@ -1,0 +1,58 @@
+html, body, #root {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 599px) {
+  form {
+    margin: 0 1rem;
+  }
+
+  #item {
+    margin: 1rem;
+  }
+
+  #title {
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 600px) {
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #results {
+    flex: 1;
+    padding: 0 1rem;
+  }
+
+  #item {
+    flex: 1;
+    padding: 1rem;
+  }
+}
+
+#title {
+  font-size: 150%;
+  font-weight: 100;
+  margin-bottom: 1rem;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.authors .author {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  background: #d4eaf2;
+}
+
+.authors .author:hover {
+  background: lightblue;
+}
